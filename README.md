@@ -33,7 +33,10 @@ cd tevatron
 pip install --editable .
 ```
 
-> Note: The current code base has been tested with, `torch==1.10.1`, `faiss-cpu==1.7.2`, `transformers==4.15.0`, `datasets==1.17.0`
+> Owner -  Note: The current code base has been tested with, `torch==1.10.1`, `faiss-cpu==1.7.2`, `transformers==4.15.0`, `datasets==1.17.0`
+
+> New update: The current upgrade version has been tested with `transformers==4.28`, `datasets`. For using with 3090 GPU, please install `pip install torch==1.10.1+cu111 torchvision==0.11.2+cu111 torchaudio==0.10.1 -f https://download.pytorch.org/whl/cu111/torch_stable.html`
+
 
 Optionally, you can also install GradCache to support our gradient cache feature during training by:
 ```bash

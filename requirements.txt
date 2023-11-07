@@ -1,0 +1,4 @@
+faiss-cpu==1.7.2
+transformers==4.28.0
+datasets
+wandb
